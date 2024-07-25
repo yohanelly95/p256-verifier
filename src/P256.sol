@@ -5,7 +5,7 @@ pragma solidity 0.8.21;
  * Helper library for external contracts to verify P256 signatures.
  **/
 library P256 {
-    address constant VERIFIER = 0xc2b78104907F722DABAc4C69f826a522B2754De4;
+    address constant VERIFIER = 0xa9cc8D5C5A3A46Fd3A516fB7c820BEDdE0c983C5;
 
     function verifySignatureAllowMalleability(
         bytes32 message_hash,
